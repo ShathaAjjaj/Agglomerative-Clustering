@@ -63,8 +63,38 @@ To group customers into clusters based on their spending behavior and extract bu
 - scikit-learn
 - scipy
 
+## Interpretation:
+
+Cluster 0:
+Moderate spending across most categories, with highest spending in Fresh and Grocery but relatively low on Milk and Delicatessen.
+→ Possibly smaller restaurants or fresh food sellers focused on fresh produce.
+
+Cluster 1:
+Extremely high spending on Frozen (47,939) and Delicatessen (4,154), with moderate spending in Fresh and Grocery, but low in Detergents_Paper.
+→ Likely businesses specializing in frozen goods — maybe catering services or frozen food retailers.
+
+Cluster 2:
+Very high spending on Milk (34,709), Grocery (48,537), and Detergents_Paper (24,875), but low on Frozen.
+→ Probably supermarkets or convenience stores with a focus on dairy, grocery, and cleaning supplies.
+
+Cluster 3:
+Highest spending in Fresh (36,847), Milk (43,950), Frozen (36,534), and Delicatessen (47,943), but very low on Detergents_Paper.
+→ Could be large wholesalers or big supermarkets with diverse product demands.
+
+
+## What can you do with this?
+
+Targeted marketing: Tailor campaigns to cluster needs — e.g., promote frozen products to Cluster 1, detergents and paper products to Cluster 2.
+
+Sales strategy: Assign sales reps specialized by cluster product profiles.
+
+Inventory management: Stock items in line with cluster purchasing behavior.
+
+Customized offers: Create bundle offers fitting each cluster’s preferences.
+
 ## 🚀 How to Run
  Clone the repository:
    ```bash
    git clone https://github.com/ShathaAjjaj/wholesale-clustering.git
    cd wholesale-clustering
+
