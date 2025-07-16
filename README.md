@@ -64,8 +64,7 @@ To group customers into clusters based on their spending behavior and extract bu
 - scipy
 
 ## 🚀 How to Run
-
-1. Clone the repository:
+ Clone the repository:
    ```bash
-   git clone https://github.com/your-username/wholesale-clustering.git
+   git clone https://github.com/ShathaAjjaj/wholesale-clustering.git
    cd wholesale-clustering
